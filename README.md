@@ -37,32 +37,16 @@ For more details on JS, please visit this [page](./js_tutorials.md)
 - Node.js files must be initiated on the server before having any effect
 - Node.js files have extension ".js"
 
-## 3. Setup dev env for nodeJs
+For more details on node.js, please visit this [page](./nodejs_tutorial.md)
 
-### Install nodeJs
+## 3. What is Electron?
 
-You can find the complete installation doc on all OS [here](https://github.com/nodesource/distributions#debinstall)
+https://www.electronjs.org/docs/latest/tutorial/tutorial-prerequisites
 
-In our case, it's an unbuntu, you can follow the below steps:
+**Electron is a framework for building desktop applications using JavaScript, HTML, and CSS**. By embedding `Chromium and Node.js into its binary`, Electron allows you to maintain one JavaScript codebase and create cross-platform apps that work on Windows, macOS, and Linux  no native development experience required.
 
+You need to be generally familiar with `Node and front-end web development basics` to start with Electron.
 
-```shell
-# get the source
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - &&\
+To get an idea of front-end dev, please read https://developer.mozilla.org/en-US/docs/Learn
 
-# install the nodejs
-sudo apt-get install -y nodejs
-
-# check the installation
-node --version
-
-# the default package manager of Nodejs is npm. So it's intalled with node
-# you can check your npm version
-npm -v
-
-# update the npm version
-sudo npm install -g npm@latest
-```
-
-Here we choose the version 18.x, because it's the LTS version. The latest 19.x is not LTS.
-
+A nodejs tutorial: https://nodejs.dev/en/learn/
