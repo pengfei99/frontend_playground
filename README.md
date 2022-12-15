@@ -2,7 +2,7 @@
 
 In this repo, we will play with javascript, nodejs and [Electron](https://www.electronjs.org/docs/latest/tutorial/quick-start)
 
-**What is JS?**
+## 1. **What is JS?**
 JavaScript is a programming language initially designed to interact with elements of web pages. In web browsers, JavaScript consists of three main parts:
 
 - `ECMAScript` provides the core functionality.
@@ -20,7 +20,24 @@ When JavaScript is used on a web page, it is executed in web browsers. In this c
 
 `JavaScript can run on both web browsers and servers. A popular JavaScript server-side environment is Node.js`. Unlike client-side JavaScript, `server-side JavaScript executes on the server that allows you to access databases, file systems, etc.`
 
-## Setup dev env for Js
+For more details on JS, please visit this [page](./js_tutorials.md) 
+
+## 2. What is Node.js
+
+**Node.js is an open source server environment which runs JavaScript on the server.**
+
+- Node.js can generate dynamic page content
+- Node.js can create, open, read, write, delete, and close files on the server
+- Node.js can collect form data
+- Node.js can add, delete, modify data in your database
+
+**What is a Node.js File?**
+- Node.js files contain tasks that will be executed on certain events
+- A typical event is someone trying to access a port on the server
+- Node.js files must be initiated on the server before having any effect
+- Node.js files have extension ".js"
+
+## 3. Setup dev env for nodeJs
 
 ### Install nodeJs
 
