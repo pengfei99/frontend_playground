@@ -22,6 +22,14 @@ When JavaScript is used on a web page, it is executed in web browsers. In this c
 
 For more details on JS, please visit this [page](./js_tutorials.md) 
 
+## 2. What is typeScript?
+
+TypeScript is a syntactic superset(it shares the same base syntax as JavaScript, but adds extra syntaxe) of JavaScript which adds `static typing`.
+
+This basically means that TypeScript adds syntax on top of JavaScript, allowing developers to add types.
+
+
+
 ## 2. What is Node.js
 
 **Node.js is an open source server environment which runs JavaScript on the server.**
