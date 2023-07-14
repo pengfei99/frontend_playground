@@ -2,6 +2,10 @@
 
 In this repo, we will follow a series of tutorial of fontend technologies. Such as javascript, Typescript, react, vue, nodejs, [Electron](https://www.electronjs.org/docs/latest/tutorial/quick-start) and more. 
 
+https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript
+
+https://zh.javascript.info/
+
 ## 1. **What is JS?**
 JavaScript is a programming language initially designed to interact with elements of web pages. In web browsers, JavaScript consists of three main parts:
 
