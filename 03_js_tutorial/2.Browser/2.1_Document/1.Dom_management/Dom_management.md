@@ -85,3 +85,13 @@ right click on the page and select “View Page Source”. You will notice that 
 of the website does not contain the new style attribute we added via JavaScript. The 
 source of a website will not change and will never be affected by client-side JavaScript. 
 If you refresh the page, the new code we added in the console will disappear.
+
+#### Browser auto correcting html file
+
+The other instance in which the DOM might have a different output than
+HTML source code is when there are errors in the source code. One
+common example of this is the table tag — a tbody tag is required
+inside a table, but developers often fail to include it in their HTML. The
+browser will automatically correct the error and add the tbody,
+modifying the DOM. The DOM will also fix tags that have not been
+closed.
