@@ -95,3 +95,8 @@ inside a table, but developers often fail to include it in their HTML. The
 browser will automatically correct the error and add the tbody,
 modifying the DOM. The DOM will also fix tags that have not been
 closed.
+
+## Understanding the DOM Tree and Nodes
+          
+The DOM is often referred to as the DOM tree, and consists of a tree of
+objects called nodes.
