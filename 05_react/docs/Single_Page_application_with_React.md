@@ -1,0 +1,1 @@
+https://coreui.io/blog/how-to-create-a-single-page-application-using-reactjs/
