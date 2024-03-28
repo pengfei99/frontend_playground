@@ -98,3 +98,31 @@ http.createServer(function (req, res) {
 ```
 
 For more tutorial. please visit https://www.w3schools.com/nodejs/nodejs_filesystem.asp
+
+
+## 4. Manage node package
+
+
+### 4.1 NPM
+The default Node Package (i.e. Javascript package manager ) Manager is called **NPM**. NPM is installed when NodeJS is installed on a machine.
+
+It comes with a command-line interface (CLI) used to interact with the online database of NPM. , and it hosts public and private 'packages.' To add or update packages, we use the NPM CLI to interact with this database. 
+
+
+### 4.2 YARN
+
+Yarn is a newer alternative of NPM, it apppeared as an attempt to solve some of the problems with npm and althought npm is struggling to keep up and introduces its counter-solutions with each new update, it is still not enough.
+
+- there is a single npm registry of packages, which is unreliable in case of any performance issues (which often take place)
+- network is required to install packages
+- If you compare Yarn vs npm in terms of the CLI side of things, Yarn has a cleaner input of CLI commands
+- Yarn vs npm in terms of security: Yarn is stronger here as well, although npm offers some built-in assessments and warning, it also allows packages to run code while being installed
+
+
+### 4.3 NPX
+
+NPX stands for Node Package eXecute. It is simply an NPM package runner. It allows developers to execute any Javascript Package available on the NPM registry without even installing it. NPX is installed automatically with NPM version 5.2.0 and above.
+
+```shell
+npx -v 
+```
