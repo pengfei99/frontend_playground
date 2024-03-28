@@ -8,6 +8,8 @@ A host environment provides its own objects and functions in addition to the lan
 
 Here’s a bird’s-eye view of what we have when JavaScript runs in a web browser:
 
+https://javascript.info/browser-environment
+
 JS can access many browser object and do operations on them, for example
 
 - window
