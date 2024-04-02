@@ -12,7 +12,7 @@ let initOptions = {
   url: 'http://keycloak.casd.local/',
   realm: 'examples',
   clientId: 'react-client',
-  onLoad: 'check-sso', // check-sso | login-required
+  onLoad: 'login-required', // check-sso | login-required
   KeycloakResponseType: 'code',
 
   // silentCheckSsoRedirectUri: (window.location.origin + "/silent-check-sso.html")
@@ -49,7 +49,7 @@ function App() {
       {/* <Auth /> */}
       <div className='grid'>
         <div className='col-12'>
-          <h1>React App with keycloak</h1>
+          <h1>My Awesome React App</h1>
         </div>
         <div className='col-12'>
           <h1 id='app-header-2'>Secured with Keycloak</h1>

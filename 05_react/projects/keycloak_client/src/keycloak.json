@@ -1,0 +1,9 @@
+{
+    "realm": "examples",
+    "auth-server-url": "http://keycloak.casd.local/",
+    "ssl-required": "external",
+    "resource": "react-client",
+    "public-client": true,
+    "confidential-port": 0
+  }
+  
