@@ -17,3 +17,4 @@ package.json
 package-lock.json
 
 .idea
+frontend_playground.code-workspace
