@@ -2,6 +2,7 @@
 
 In this repo, we will follow a series of tutorial of frontend technologies. Such as javascript, Typescript, react, vue, nodejs, [Electron](https://www.electronjs.org/docs/latest/tutorial/quick-start) and more. 
 
+You can find the main doc in [docs](./docs/)
 
 
 ## 1. **What is JS?**
