@@ -23,8 +23,16 @@ function App() {
 
   return (
     <>
+    <header className="w-full flex items-center justify-center bg-white shadow-md py-4 mb-6">
+        <img
+          src="/src/assets/casd.svg"
+          alt="CASD"
+          className="h-12 mr-4"
+        />
+        <h1 className="text-2xl font-bold text-gray-800">CASD Secure HUB</h1>
+      </header>
       <div className="flex flex-col items-center p-6">
-      <h1 className="text-2xl font-bold mb-4">Select the server which you want to connect:</h1>
+      <h1 className="text-2xl font-bold mt-4">Select the server which you want to connect:</h1>
       <div className="flex gap-6">
         {icons.map((icon) => (
           <button
