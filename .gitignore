@@ -13,7 +13,6 @@ resources/sass/.sass-cache/
 resources/.arch-internal-preview.css
 .arch-internal-preview.css
 node_modules
-package.json
 package-lock.json
 
 .idea
