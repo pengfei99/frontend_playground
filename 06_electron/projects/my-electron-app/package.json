@@ -1,5 +1,5 @@
 {
-  "name": "my-electron-app",
+  "name": "casd_secure_hub",
   "version": "1.0.0",
   "description": "my first electron app ",
   "license": "MIT",
@@ -8,9 +8,34 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "electron": "^35.0.2"
+    "electron": "^35.0.2",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "eu.casd.casd-secure-hub",
+    "productName": "casd_secure_hub",
+    "files": [
+      "dist/**/*",
+      "assets/**/*",
+      "index.html",
+      "main.js",
+      "renderer.js",
+      "style.css"
+    ],
+    "win": {
+      "icon": "assets/bouclier.ico", 
+      "sign": false,
+      "verifyUpdateCodeSignature": false
+    },
+    "mac": {
+      "icon": "assets/bouclier.icns" 
+    },
+    "linux": {
+      "icon": "assets/bouclier.png" 
+    }
   }
 }
