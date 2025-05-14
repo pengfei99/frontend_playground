@@ -1,0 +1,14 @@
+{
+  "title": "Read Config File example",
+  "widgets": [
+    {
+      "type": "text",
+      "value": "Welcome to the casd."
+    },
+    {
+      "type": "link",
+      "label": "CASD",
+      "url": "https://casd.eu"
+    }
+  ]
+}
