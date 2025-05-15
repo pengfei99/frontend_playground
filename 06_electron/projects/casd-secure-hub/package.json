@@ -31,10 +31,10 @@
       "icon": "assets/bouclier.ico"
     },
     "mac": {
-      "icon": "assets/bouclier.icns" 
+      "icon": "assets/bouclier.icns"
     },
     "linux": {
-      "icon": "assets/bouclier.png" 
+      "icon": "assets/bouclier.png"
     }
   }
 }

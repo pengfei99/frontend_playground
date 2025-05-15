@@ -1,7 +1,0 @@
-{
-  "title": "Live Config Page",
-  "widgets": [
-    { "type": "text", "value": "Welcome to the live-updating Electron app." },
-    { "type": "link", "label": "OpenAI", "url": "https://openai.com" }
-  ]
-}

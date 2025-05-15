@@ -9,6 +9,14 @@
       "type": "link",
       "label": "CASD",
       "url": "https://casd.eu"
+    },
+    {
+      "type": "button",
+      "label": "Server-1",
+      "className": "icon-btn",
+      "image": "assets/server.png",
+      "imageAlt": "server icon",
+      "url": "https://casd.eu"
     }
   ]
 }
