@@ -12,8 +12,11 @@ const os = require('os');
 const username = os.userInfo().username;
 
 
+// define function with parameter configPath
 function readConfig(configPath) {
+    // Checks if the file specified by configPath exists on the file system
   if (!fs.existsSync(configPath)) {
+    // if not log error msg to console and log file
     const msg = `Config file not found: ${configPath}`;
     console.error(msg);
     log.error(msg);
@@ -21,9 +24,11 @@ function readConfig(configPath) {
   }
 
   try {
+    // Reads the contents of the file at configPath synchronously
     const raw = fs.readFileSync(configPath, 'utf-8');
+    // parse raw content to json object
     const config = JSON.parse(raw);
-
+    // check if the json object is valid (not null and has type object)
     if (typeof config !== 'object' || config === null) {
       throw new Error('Invalid config structure: expected an object');
     }
@@ -31,6 +36,7 @@ function readConfig(configPath) {
     return config;
 
   } catch (err) {
+    // if err is catched, log error to consol and log file
     const msg = `Failed to read or parse config file: ${configPath}`;
     console.error(msg, err.message);
     log.error(msg, err);
@@ -53,6 +59,12 @@ function createWindow () {
 // Provide config to renderer
 ipcMain.handle('get-config', () => {
   return readConfig(defaultConfPath);
+});
+
+// handle the event button-clicked send by renderer
+ipcMain.on('button-clicked', (event, eventName, eventData) => {
+  console.log(`Event received: ${eventName}`, eventData);
+  log.info(`Event received: ${eventName}`, eventData);
 });
 
 app.whenReady().then(() => {

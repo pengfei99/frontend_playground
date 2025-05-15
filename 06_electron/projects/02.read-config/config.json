@@ -3,11 +3,11 @@
   "widgets": [
     {
       "type": "text",
-      "value": "Welcome to the casd."
+      "value": "Welcome to casd."
     },
     {
       "type": "link",
-      "label": "CASD",
+      "label": "CASD website",
       "url": "https://casd.eu"
     },
     {
@@ -16,7 +16,38 @@
       "className": "icon-btn",
       "image": "assets/server.png",
       "imageAlt": "server icon",
-      "url": "https://casd.eu"
+      "action": "send-event",
+      "eventName": "button-clicked",
+      "eventData": {
+        "type": "server",
+        "server": "server-1"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Server-2",
+      "className": "icon-btn",
+      "image": "assets/server.png",
+      "imageAlt": "server icon",
+      "action": "send-event",
+      "eventName": "button-clicked",
+      "eventData": {
+        "type": "server",
+        "server": "server-2"
+      }
+    },
+    {
+      "type": "button",
+      "label": "Server-3",
+      "className": "icon-btn",
+      "image": "assets/server.png",
+      "imageAlt": "server icon",
+      "action": "send-event",
+      "eventName": "button-clicked",
+      "eventData": {
+        "type": "server",
+        "server": "server-3"
+      }
     }
   ]
 }
