@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>System Dashboard</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 2rem;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .bar {
+            height: 20px;
+            background: #4caf50;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="page-title">Loading title...</h1>
+
+    <div id="content">
+
+        <div class="card">
+            <div class="label">CPU Usage:</div>
+            <div id="cpu-value">Loading...</div>
+            <div style="background:#ddd;">
+                <div id="cpu-bar" class="bar" style="width:0%"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="label">Memory Usage:</div>
+            <div id="memory-value">Loading...</div>
+            <div style="background:#ddd;">
+                <div id="memory-bar" class="bar" style="width:0%"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>

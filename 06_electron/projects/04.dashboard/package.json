@@ -1,0 +1,15 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "server usage dashboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pengfei liu",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.2.1"
+  }
+}
