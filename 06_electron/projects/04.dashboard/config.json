@@ -1,11 +1,11 @@
 {
-  "title": "Read Config File example",
+  "title": "CASD Cluster Dashboard",
   "name": "server-1",
   "status": "running",
   "timestamp": "2025-05-21T12:00:00Z",
-  "cpu": 38.7,
+  "cpu": 18.7,
   "memory": {
-    "used": 2230,
+    "used": 1230,
     "total": 8192
   },
   "servers": [
